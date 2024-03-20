@@ -1,5 +1,5 @@
 {
-    "name": "robsontenorio/laravel-keycloak-guard",
+    "name": "febrianrz/laravel-keycloak-guard",
     "description": "🔑 Simple Keycloak Guard for Laravel",
     "keywords": [
         "laravel",
