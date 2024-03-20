@@ -128,7 +128,7 @@ class KeycloakGuard implements Guard
     public function id()
     {
         if ($user = $this->user()) {
-            return $this->user()->id || $this->user()->token->sub;
+            return $this->user()->id ?? $this->user()->token->sub;
         }
     }
 
